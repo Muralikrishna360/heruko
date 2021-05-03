@@ -123,5 +123,5 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 
-# Extra places for collectstatic to find static files.
-
+# Extra places for collectstatic to find static file
+STATIC_URL = '/static/'
